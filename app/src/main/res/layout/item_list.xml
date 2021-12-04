@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ittm"
+    android:layout_height="90dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView1"
+            android:typeface="monospace"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:maxEms="13"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:typeface="monospace"
+            android:maxEms="13"
+            android:layout_marginTop="5sp"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="#65000000"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="0dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
